@@ -1,0 +1,262 @@
+:root{
+    --mainColor:rgb(18, 202, 248);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+.section_one{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+    
+}
+.section_row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.two_div{
+    width: 50%;
+    height: 100%;
+}
+.login_div{
+    background-color: var(--mainColor);
+   
+}
+.leftdiv_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.left_image{
+    width: 80%;
+}
+.left_image img{
+    max-width: 200px;
+}
+.left_container_title_div{
+  margin-left: 40px;
+}
+.left_container_title_div h1{
+    font-weight: 600;
+    font-family: 'Carter One', cursive;
+    font-size: 30px;
+}
+.bangladesh{
+    background-color: var(--mainColor);
+    color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    
+    line-height: 1.5;
+}
+.shortdescrip{
+    color: rgb(146, 144, 144);
+}
+
+.doanload_app_div a img{
+    max-width: 150px;
+    margin-top: 15px;
+}
+.right_div_container{
+    width: 60%;
+}
+#dynamic_div{
+    height: 400px;
+    overflow: hidden;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    
+}
+
+
+
+.form_content{
+    position: relative;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px rgba(128, 128, 128, 0.671);
+}
+.otpForm{
+    padding: 20px;
+    padding-top: 140px;
+    padding-bottom: 0;
+}
+.input_div{
+    padding-bottom: 10px;
+    
+}
+.input_div input{
+    width: 100%;
+    padding: 8px;
+
+}
+.send_otp{
+    font-weight: 600;
+    
+}
+.continue_btn{
+    padding: 20px;
+    padding-top: 0px;
+}
+.continue_btn button{
+    width: 100%;
+    background-color: var(--mainColor);
+    border: none;
+    padding: 8px;
+    margin-top: 10px;
+    color: white;
+
+
+}
+
+.nav_bar{
+    margin-top:10px;
+    padding-right:5px ;
+    padding-left: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0px 0px 4px 4px;
+    -webkit-border-radius: 0px 0px 4px 4px;
+    -moz-border-radius: 0px 0px 4px 4px;
+    -ms-border-radius: 0px 0px 4px 4px;
+    -o-border-radius: 0px 0px 4px 4px;
+}
+
+.nav_bar ul li{
+    list-style-type: none;
+    padding: 3px;
+}
+.nav_bar ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_bar ul li a{
+    font-size: 20px;
+    color: rgb(138, 136, 136);
+    padding: 3px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.nav_bar ul li:hover a{
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.active_menu{
+    color: white;
+}
+.listing_content{
+    margin-top: 5px;
+}
+.cloth_fix_size_photo{
+    height: 70px;
+    width: 80px;
+}
+.list_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(175, 175, 175, 0.514);
+}
+.cloth_image{
+    width: 20%;
+}
+.service_name{
+    width: 60%;
+}
+.service_name h3{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.servece_fee{
+    width: 20%;
+}
+.servece_fee p{
+    font-size: 16px;
+}
+
+
+.dnone_for_pc{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:200px) and (max-width:991px){
+    .section_row {
+        flex-wrap: wrap;
+    }
+    .dnone_for_pc{
+        display: block;
+    }
+    .dnone_for_mobile{
+        display: none;
+    }
+    .section_one {
+        background-color: rgb(255, 255, 255);
+        height: 100vh;
+        width: 100%;
+    }
+    .two_div {
+        width: 1000%;
+        height: 100%;
+    }
+    .left_container_title_div {
+        margin-left: 0px;
+    }
+    .right_div_container{
+        width: 97%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
